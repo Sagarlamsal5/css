@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+    <style>
+        *{
+            margin: 0;
+            padding-block-end: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: darkcyan;
+            margin: 10px 0;
+            /* box-shadow: 10px 10px 55px rgba(0,0,0,0.5); */
+            background-image: url(img/download.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-left: 40%;
+        }
+        .box:hover{
+            box-shadow: 5px 5px 100px rgba(30, 237, 7, 0.5), -1px -5px 50px rgb(0, 0, 0.5);
+        }
+        .box p{
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(241, 139, 14);
+            font-size: 20px;
+            font-weight:500;
+            text-shadow:5px 5px 10px 
+        }
+        h1{
+            font-size: 50px;
+            text-shadow: 5px 5px 10px rgba(106,172,88,0.5),  -1px -1px 50px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Dursikshya</p>
+    </div>
+    <h1>Dursikshya</h1>
+</body>
+</html>

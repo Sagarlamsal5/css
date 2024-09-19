@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    height: 250px;
+    width: 17%;
+    background-color: white;
+    margin: 25px;
+    padding-top: 0px;
+}
+
+.box h3 {
+    padding: 18px;
+    height: 100px;
+    background: linear-gradient(to right, rgb(197, 79, 240), rgb(244, 210, 215));
+    color: white;
+}
+
+.box p {
+    background-color: white;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 30px;
+    /* text-align: center; */
+    font-size: large;
+}
+
+.box p i {
+    display: block;
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.box .bi {
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 1px;
+    text-align: left;
+    color: darkgoldenrod
+}
+
+.display {
+    display: none;
+    position: absolute;
+    height: 250px;
+    width: 17%;
+    padding: 20px;
+}
+
+
+.box:hover .display {
+    display: block;
+    background-color: black;
+    color: white;
+    z-index: 10;
+    top: 23px;
+
+
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 2%;
+    width: 220px;
+    height: 40px;
+}
+
+.box1 {
+    height: 325px;
+    width: 17%;
+    background-color: white;
+    margin: 20px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.box1 main {
+    margin: 0;
+    height: 180px;
+   
+}
+
+.box1 .main img {
+    width: 100%;
+   
+}
+
+.box1 .demo {
+    height: 45px;
+    top: 40%;
+    background-color: yellow;
+    margin-left: 7px;
+    padding: 5px;
+    z-index: 50;
+    position: absolute;
+}
+.list{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.box1 .btn{
+    margin-top: 0;
+    margin-left: 7%;
+}

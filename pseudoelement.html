@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* p::first-letter{
+            font-size: 50px;
+            color: blue;
+
+        }
+        P::first-line{
+            color: red;
+        } */
+        ::selection {
+            background-color: limegreen;
+        }
+
+        p::before {
+            content: '';
+            font-size: 60px;
+            background-color: darkblue;
+            color: white;
+            display: block;
+            width: 60%;
+            height: 10px;
+            margin: auto;
+        }
+
+        p::after {
+            content: '';
+            font-size: 60px;
+            background-color: darkblue;
+            color: white;
+            display: block;
+            width: 60%;
+            height: 10px;
+            margin: auto;
+        }
+
+        p {
+            text-align: center;
+            font-size: 50px;
+            text-shadow: -1px -1px 10px rgb(103, 100, 100), 1px 1px 10px rgb(212, 78, 78);
+        }
+    </style>
+</head>
+
+<body>
+    <p>Our CSS Class</p>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ad culpa neque possimus animi porro ipsam totam eius, numquam repudiandae illo commodi cum rem provident! Corrupti voluptas architecto praesentium accusamus!</pre>
+</body>
+
+</html>

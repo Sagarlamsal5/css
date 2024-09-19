@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    height: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 25px;
+}
+
+header:hover {
+    text-shadow: 5px 5px 20px greenyellow;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+   
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.nav-logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    padding: 30px;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+   
+}
+
+.mobileicon {
+    display: none;
+}
+
+.dropmobile {
+    display: none;
+    position: absolute;
+    background-color: #2980b9;
+    right: 9.5px;
+    top: 125px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.mobileicon:hover .dropmobile {
+    display: block;
+}
+
+.mobnav {
+    padding: 5px;
+}
+
+.box {
+    width: 22%;
+    height: 350px;
+    background-color: #2980b9;
+    margin: 10px 0;
+}
+
+.box-img {
+    height: 190px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+.box img:hover {
+    transform: scale(1.5);
+}
+
+.box-content {
+    padding: 15px;
+}
+
+.box-content h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.box-content p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.icon i {
+    color: yellow;
+}
+
+.btn {
+    margin-top: 10px;
+    background: linear-gradient(to right, red, blue);
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+footer{
+    height:200px ;
+    background-color:darkgoldenrod;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icon1{
+    display:block;
+     font-size: 40px;
+     justify-content: space-between;
+     padding-top: 15px;
+      
+ }
+ .bi-facebook:hover{
+     color: blue;
+ }
+ .fa-instagram:hover{
+    color: rgb(252,204,99);
+ }
+ .fa-youtube:hover{
+    color: red;
+ }
+ .follow{
+    display: block;
+ }
+ 
+
+/* for mobile */
+@media screen and (max-width:576px) {
+    header {
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .desnav {
+        display: none;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+
+    .mobileicon {
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+
+    .box {
+        height: 190px;
+        width: 95%;
+        display: flex;
+
+    }
+
+    .box img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .box-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+
+    }
+
+    .box-content {
+        padding: 30px 6px;
+    }
+    footer{
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .box {
+        width: 46%;
+        height: 350px;
+    }
+
+    .desnav {
+        display: none;
+    }
+
+    .mobileicon {
+        display: block;
+        font-size: 30px;
+        color: white;
+    }
+}

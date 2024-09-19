@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageslider</title>
+    <style>
+        *{
+            margin: 0px;
+            width: 0;
+            box-sizing: border-box;
+        }
+        .imageslider{
+            height:max-content; 
+            position: relative;
+        }
+        .imageslider img{
+            height:800px; 
+            width: 1515px;
+            padding: 5px;
+            
+        }
+        .left{
+            border:none; 
+            font-size: 30px;
+            background-color: yellow;
+            padding: 3px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            position: fixed;
+            top:40%;
+            left: 10px;       
+         }
+         .right{
+            border:none; 
+            font-size: 30px;
+            background-color: yellow;
+            padding: 3px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            position: fixed;
+            top:40%;
+            right: 15px;       
+         }
+    </style>
+</head>
+<body>
+    <div class="imageslider">
+        <img src="img/background.jpeg" alt="">
+        <button class="left">&lt;</button>
+        <button class="right">&gt;</button>
+    </div>
+</body>
+</html>

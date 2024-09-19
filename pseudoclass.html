@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            }
+        table,th,td{
+            border: 1px,solid black;
+            border-collapse: collapse;
+            }
+            th,td{
+                width: 100px;
+                text-align: center;
+            }
+        table{
+            margin: 10px auto;
+            }
+        th,td{
+            padding: 10px 20px;
+            }
+        .name:hover{
+                background-color: aqua;
+            }
+         /* tr th:first-child{
+            background-color: grey;
+            color: white;
+         }   */
+         /* th:last-child{
+            background-color: red;
+            color: white;
+         }  */
+         /* th:nth-child(3){
+            background-color: blue;
+            color: white;
+         } */
+         /* th:nth-child(3n){
+            background-color: darkblue;
+            color: white;
+         } */
+         tr,th{
+            background-color: grey;
+         }
+         tr:nth-child(2n){
+            background-color: #85c1e9;
+         }
+         tr:nth-child(2n+1){
+            background-color: #abebc6;
+         }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Email</th>
+            <th colspan="2">Contact</th>
+            <th colspan="2">Address</th>
+            <th rowspan="2">Education</th>
+            <th rowspan="2">Gender</th>
+            <th rowspan="2">Occupation</th>
+        </tr>
+        <tr class="section">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Primary</th>
+            <th>Secondary</th>
+            <th>Temporary</th>
+            <th>Permanent</th>
+        </tr>
+      
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+        <tr>
+            <td class="name">Ram</td>
+            <td>Shrestha</td>
+            <td>ram@gmail.com</td>
+            <td>9862........</td>
+            <td>010......</td>
+            <td>Kathmandu</td>
+            <td>Bhaktapur</td>
+            <td>Bachelor</td>
+            <td>Male</td>
+            <td>Software Engineer</td>
+        </tr>
+
+      
+
+    </table>
+</body>
+</html>

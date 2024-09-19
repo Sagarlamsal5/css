@@ -1,0 +1,92 @@
+
+.box1{
+    width: 400px;
+    height: 800px;
+    background-color:white;
+
+    /* border-width:5px; 
+    border-style: double;
+    border-color: red; 
+    outline-width: 10px;
+    outline-style:solid;
+    outline-color: blueviolet; */
+    
+     border:10px solid red; 
+    /* solid,double,dashed,dotted,ridge,groove,inset,outset,none */
+    outline:10px double blue;
+    /* solid,double,dashed,dotted,ridge,groove,inset,outset,none */ 
+    margin-bottom: 50px; 
+}
+
+.box2{
+    width: 400px;
+    height: 800px;
+    background-color:aqua;
+    border:10px double green;
+        outline:10px dashed greenyellow;
+        margin-bottom: 50px;
+    }
+ 
+.box3{
+width: 400px;
+height: 800px;
+background-color:brown;
+border:10px dashed blueviolet;
+    outline:10px dotted yellow;
+    margin-bottom: 50px;
+}
+
+.box4{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px dotted red;
+    outline:10px ridge blue;
+    margin-bottom: 50px;
+}
+
+.box5{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px ridge red;
+    outline:10px groove blue;
+    margin-bottom: 50px;
+}
+
+.box6{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px groove red;
+    outline:10px inset blue;
+    margin-bottom: 50px;
+}
+
+.box7{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px inset red;
+    outline:10px outset blue;
+    margin-bottom: 50px;
+}
+
+.box8{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px outset red;
+    outline:10px none blue;
+    margin-bottom: 50px;
+}
+
+.box9{
+width: 400px;
+height: 800px;
+background-color:white;
+border:10px none red;
+    outline:10px solid blue;
+    margin-bottom: 50px;
+}
+
